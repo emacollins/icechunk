@@ -106,11 +106,6 @@ ignore = [
   "RUF012",  # mutable class attributes
 ]
 
-
-[tool.ruff.lint.per-file-ignores]
-# don't enforce absolute imports
-"asv_bench/**" = ["TID252"]
-
 [tool.ruff.lint.isort]
 known-first-party = ["dask", "distributed", "icechunk", "xarray", "zarr"]
 
